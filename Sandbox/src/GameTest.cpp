@@ -1,15 +1,18 @@
+#include <Holy.h>
 
-
-namespace Holy {
-
-
-	__declspec(dllexport) void Print();
-
-}
-void main()
-
+class Sandbox : public Holy::Application
 {
+public:
+	Sandbox()
+	{
+	}
+	~Sandbox()
+	{
+	}
+};
 
-	Holy::Print();
 
+Holy::Application* Holy::CreateApplication()
+{
+	return new Sandbox(); 
 }
