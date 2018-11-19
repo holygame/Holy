@@ -8,7 +8,7 @@
 	to do so we'll add HL_BUILD_DLL to Holy's preprocessor definitions
 */
 #ifdef HL_PLATFORM_WINDOWS
-    #ifdef HL_BUILD_DLL
+	#ifdef HL_BUILD_DLL
 		#define HOLY_API __declspec(dllexport)
 	#else
 		#define HOLY_API __declspec(dllimport)
