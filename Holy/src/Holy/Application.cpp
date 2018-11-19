@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "Application.h"
 
 namespace Holy {
@@ -16,7 +17,8 @@ namespace Holy {
 	{
 		while (true)
 		{
-			printf("runing");
+			
+
 		}
 	}
 }

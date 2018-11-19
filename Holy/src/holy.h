@@ -1,11 +1,12 @@
 #pragma once
 
 
-// for use by Holy apps
 #include <stdio.h>
-#include "Holy/Application.h"
+// for use by Holy apps
+#include "Holy\Log.h"
+#include "Holy\Application.h"
  
 // ------- PROGRAM START --------
-#include "Holy/Start.h"
+#include "Holy\Start.h"
 
 //-----------------------------
