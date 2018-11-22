@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "Application.h"
 
+
+// 
 namespace Holy {
 
 	Application::Application()
@@ -17,8 +19,6 @@ namespace Holy {
 	{
 		while (true)
 		{
-			
-
 		}
 	}
 }

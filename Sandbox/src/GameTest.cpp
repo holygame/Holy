@@ -14,6 +14,5 @@ public:
 
 Holy::Application* Holy::CreateApplication()
 {
-	printf("initialised");
 	return new Sandbox(); 
 }
